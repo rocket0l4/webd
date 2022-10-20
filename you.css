@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.image {
+    margin-top: 180px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.image img:hover {
+    cursor: crosshair;
+}
+
+.lol {
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.lol:hover {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+}
